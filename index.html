@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<title>310129_Adidas_SpeedOfLight_300x600_video</title>
+</head>
+<body>
+  <!-- Main Container -->
+  <div id="main-container">
+
+    <div id="exit"></div><!-- Exit -->
+
+     <div id="background"><img class="background" src="images/bg.jpg"></div><!-- BG -->
+
+      <div id="blue-player"><img class="blue-player" src="images/blue-player.jpg" alt=""></div>
+      <div id="red-player"><img class="red-player" src="images/red-player.jpg" alt=""></div>
+      <div id="yellow-player"><img class="yellow-player" src="images/yellow-player.jpg" alt=""></div>
+      <div id="logo"><img class="logo" src="images/adi-logo.png" alt=""></div>
+
+      <div id="green_boot"><img class="green_boot" src="images/green_boot.png" alt=""></div>
+      <div id="blue_boot"><img class="blue_boot" src="images/blue_boot.png" alt=""></div>
+      <div id="red_boot"><img class="red_boot" src="images/red_boot.png" alt=""></div>
+      <div id="cta"><img class="cta" src="images/cta.png" alt=""></div>
+
+      <div id="white_line">
+        <div class="white_line white_line01"></div>
+        <div class="white_line white_line02"></div>
+        <div class="white_line white_line03"></div>
+      </div>
+
+      <div id="redbox_final"><img class="redbox_final" src="images/redbox.png" alt=""></div>
+
+    <!-- Video -->
+    <div id="video-container-0">
+        <video id="video-0" poster="poster.jpg">
+           <!-- Sources will be added via JS using Enabler.getUrl calls. -->
+        </video>
+        <button id="playBtn" class="video-controls"></button>
+        <button id="pauseBtn" class="video-controls"></button>
+       <button id="stopBtn" class="video-controls"></button>
+        <button id="replayBtn" class="video-controls"></button>
+        <button id="unmuteBtn" class="video-controls"></button>
+        <button id="muteBtn" class="video-controls"></button>
+     </div>
+     <!-- /Video -->
+
+     <!-- Images -->
+     <div id="video-container"><img class="video-container" src="images/video.jpg"></div>
+
+
+     <!-- /Images -->
+
+  </div>
+  <!-- /Main Container -->
+
+  <script src="logic.js"></script><!-- Logic -->
+</body>
+</html>
